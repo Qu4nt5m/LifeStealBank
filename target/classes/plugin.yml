@@ -1,0 +1,25 @@
+name: LifeStealBank
+version: '1.0-SNAPSHOT'
+main: me.meowquantum.com.lifestealbank.LifeStealBank
+api-version: '1.20'
+depend: [LifestealCore]
+commands:
+  hearthpay:
+  heartbank:
+  profile:
+permissions:
+  heartbank.limit.6:
+    description: Allows storing up to 6 hearts.
+    default: false
+  heartbank.limit.9:
+    description: Allows storing up to 9 hearts.
+    default: false
+  heartbank.limit.12:
+    description: Allows storing up to 12 hearts.
+    default: false
+  heartbank.limit.15:
+    description: Allows storing up to 15 hearts.
+    default: false
+  heartbank.limit.20:
+    description: Allows storing up to 20 hearts.
+    default: false
